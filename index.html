@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Botcito | v2</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script type="text/javascript">
+		var escribir;
+		var salir=false;
+		var nombre;
+		var botnombre;
+		nombre=prompt("¿Cuál es tu nombre?");
+		do{
+
+			escribir=prompt("Tú");
+			if (escribir=="hola" || escribir=="Hola" || escribir=="hey" || escribir=="Hey") {
+				var sound = new Audio("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=es&q=Hola"+nombre);
+				sound.play();
+				alert("Hola "+nombre);
+
+			}
+			if (escribir=="que puedes hacer" || escribir=="Que puedes hacer") {
+				var sound = new Audio("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=es&q=Nada de nada");
+				sound.play();
+				alert("Nada de nada");
+			}
+			if (escribir=="idiota" || escribir=="Idiota") {
+				var sound = new Audio("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=es&q=Oye"+nombre+"ten más cuidado con lo que dices");
+				sound.play();
+				alert("Oye "+ nombre +" ten más cuidado con lo que dices");
+			}
+			if (escribir=="Quien es tu creador" || escribir=="quien es tu creador") {
+				var sound = new Audio("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=es&q=Tecnicamente seria leonardo Ramirez, pero no es para tanto");
+				sound.play();
+				alert("Tecnicamente seria Leonardo Ramirez, pero no es para tanto");
+			}
+			if (escribir=="como estas" || escribir=="Como estas") {
+				alert("Bien bien ");
+				alert("y tu "+ nombre );
+			}
+			if (escribir=="ella me ama" || escribir=="Ella me ama") {
+				var sound = new Audio("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=es&q="+nombre+"ella no te ama");
+				sound.play();
+				alert(nombre+" ella no te ama");
+			}
+			if (escribir=="root" || escribir=="Root") {
+				var sound = new Audio("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=es&q="+nombre+"ahora eres un completo idiota pero con privilegios");
+				sound.play();
+				alert(nombre+" ahora eres un completo idiota pero con privilegios");
+			}
+			if (escribir=="frase" || escribir=="Frase") {
+				var sound = new Audio("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=es&q=No tienes el tiempo que piensas que tienes");
+				sound.play();
+				alert("No tienes el tiempo que piensas que tienes");
+			}
+			if (escribir=="como me llamo" || escribir=="Como me llamo") {
+				var sound = new Audio("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=es&q=Pues te llamas"+nombre+"¿verdad?");
+				sound.play();
+				alert("Pues te llamas "+nombre+" ¿verdad?");
+			}
+			//var letra=prompt("escribe");
+			//var sound = new Audio("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=es&q="+letra);
+			//sound.play();
+		}while(true)
+	</script>
+	<!--<script type="text/javascript">
+		var letra=prompt("escribe");
+		var sound = new Audio("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=es&q="+letra);
+		sound.play();
+		alert("hola");
+	</script>-->
+
+</body>
+</html>
